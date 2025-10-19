@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soe Moe Naing | Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <Style>
+ 
+  </Style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#">Soe Moe<span> Naing</span></a>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills-projects">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="assets/SmCV.pdf" download="" class="btn" >Download CV</a></li>
+      </ul>
+
+      <div class="menu-toggle" id="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+ 
+<section id="home" class="hero">
+  <div class="hero-content">
+    <h1>Hi, I'm <span class="highlight">Soe Moe Naing</span></h1>
+    <h2>
+      I'm a <span class="typing" id="typing"></span>
+    </h2>
+    <p>
+      I love building modern, user-friendly web applications using clean, 
+      efficient code — always learning and improving.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#projects" class="btn">View Projects</a>
+      <a href="#contact" class="btn-outline">Hire Me</a>
+    </div>
+
+    <div class="social-links">
+      <a href="https://github.com/soemoeGITTHUB" target="_blank"><i class="fab fa-github"></i>GIT</a>
+      <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i>Linkedin</a>
+      <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i>X</a>
+      <a href="mailto:soemoen900@gmail.com"><i class="fas fa-envelope"></i>Email</a>
+      <a href="https://t.me/callme_jimmy"><i class="fas fa-envelope">Telegram</i></a>
+    </div>
+
+    
+  </div>
+
+  <div class="hero-image">
+    <img src="assets/image.png" alt="Developer Illustration" />
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="about-container">
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>
+        I'm Soe Moe Naing, a passionate frontend developer with a strong focus on 
+        creating responsive and user-friendly web applications. I love to learn new technologies 
+        and challenge myself with projects that push my skills forward.
+      </p>
+
+      <h3>My Skills</h3>
+      <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>C++</span>
+        <span>Python</span>
+        <span>Java Programming</span>
+        <span>Git</span>
+        <span>MySql</span>
+      </div>
+
+      <h3>Achievements</h3>
+      <div class="achievements">
+        <div><strong>2+</strong> Projects Completed</div>
+        <div><strong>1+</strong> Year Experience</div>
+        <div><strong>Not Started</strong> Happy Clients</div>
+      </div>
+    </div>
+
+    <div class="about-image">
+      <img src="assets/image.png" alt="Soe Moe Naing" />
+     
+    </div>
+  </div>
+</section>
+
+
+<section id="skills-projects" class="skills-projects">
+  <div class="container">
+
+    <!-- Skills Section -->
+    <div class="skills-section">
+      <h2>My Skills</h2>
+      <div class="skill">
+        <p>HTML</p>
+        <div class="skill-bar" data-progress="95%"><span></span></div>
+      </div>
+      <div class="skill">
+        <p>CSS</p>
+        <div class="skill-bar" data-progress="90%"><span></span></div>
+      </div>
+      <div class="skill">
+        <p>C++</p>
+        <div class="skill-bar" data-progress="85%"><span></span></div>
+      </div>
+      <div class="skill">
+        <p>MySql</p>
+        <div class="skill-bar" data-progress="70%"><span></span></div>
+      </div>
+      <div class="skill">
+        <p>Java</p>
+        <div class="skill-bar" data-progress="50%"><span></span></div>
+      </div>
+      <div class="skill">
+        <p>Python</p>
+        <div class="skill-bar" data-progress="40%"><span></span></div>
+      </div>
+    </div>
+
+   
+
+  </div>
+</section>
+
+<section id="projects" class="projects-section">
+  <div class="container">
+    <h2>My Projects</h2>
+
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="web">Web</button>
+      <button class="filter-btn" data-filter="ui">UI</button>
+      <button class="filter-btn" data-filter="C++">C++</button>
+      <button class="filter-btn" data-filter="Java">Java</button>
+      <button class="filter-btn" data-filter="python">Python</button>
+    </div>
+
+    <div class="projects-grid">
+      <div class="project-card scroll-animate" data-category="web">
+        <img src="assets/pngtree-ai-robot-innovation-high-tech-ppt-robot-template-background-image-image_2207016.jpg" alt="Project 1">
+        <div class="overlay">
+          <h3>Project One</h3>
+          <p>Ai Library built with HTML/CSS</p>
+          <a href="https://github.com/soemoeGITTHUB/Ai-Library-Using-HTML-CSS" target="_blank" class="btn-outline">View</a>
+        </div>
+      </div>
+      <!-- <div class="project-card scroll-animate" data-category="ui">
+        <img src="project2.png" alt="Project 2">
+        <div class="overlay">
+          <h3>Project Two</h3>
+          <p>UI/UX design prototype in Figma</p>
+          <a href="#" class="btn-outline">View</a>
+        </div>
+      </div>
+      <div class="project-card scroll-animate" data-category="python">
+        <img src="project3.png" alt="Project 3">
+        <div class="overlay">
+          <h3>Project Three</h3>
+          <p>Python automation script</p>
+          <a href="#" class="btn-outline">View</a>
+        </div>
+      </div>
+      <div class="project-card scroll-animate" data-category="web">
+        <img src="project4.png" alt="Project 4">
+        <div class="overlay">
+          <h3>Project Four</h3>
+          <p>React web application</p>
+          <a href="#" class="btn-outline">View</a>
+        </div>
+      </div>
+    </div> -->
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="contact-container">
+    <h2>Contact Me</h2>
+    <p>Have a project in mind or just want to say hi? Reach out!</p>
+
+   <!-- Load EmailJS -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+  (function(){
+    emailjs.init("rrzWhosN_eLotfsvp"); // ✅ Your public key
+  })();
+
+  function sendMail(event) {
+    event.preventDefault(); // ✅ Prevent form reload
+
+    const params = {
+      from_name: document.getElementById("name").value,
+      email_id: document.getElementById("email").value,
+      message: document.getElementById("message").value
+    };
+
+    emailjs.send("service_4drma73", "template_3m6smfd", params)
+      .then(() => alert("✅ Message sent successfully!"))
+      .catch((err) => {
+        console.error(err);
+        alert("❌ Failed to send message. Check console for details.");
+      });
+  }
+</script>
+
+<!-- ✅ Add proper IDs -->
+<form class="contact-form" onsubmit="sendMail(event)">
+  <input type="text" id="name" placeholder="Your Name" required>
+  <input type="email" id="email" placeholder="Your Email" required>
+  <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+  <button type="submit" class="btn">Send Message</button>
+</form>
+
+
+    <div class="contact-social">
+      <a href="https://github.com/" target="_blank"><i class="fab fa-github">Git Hub</i></a>
+      <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin">Linkedin</i></a>
+      <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter">X</i></a>
+      <a href="mailto:soemoen900@gmail.com"><i class="fas fa-envelope">Email</i></a>
+      <a href="https://t.me/callme_jimmy"><i class="fas fa-envelope">Telegram</i></a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>&copy; 2025 Soe Moe Naing. All rights reserved.</p>
+  <div class="scroll-top" id="scroll-top">&#8679;</div>
+</footer>
+
+
+
+<!-- Font Awesome for social icons -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
